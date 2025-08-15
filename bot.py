@@ -1,7 +1,9 @@
 import discord
 import os
 from discord.ext import commands
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+
+KST = timezone(timedelta(hours=9))
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix='!', intents=intents)
@@ -18,7 +20,7 @@ async def on_ready():
         return
     already_ran = True 
 
-    now = datetime.now()
+    now = datetime.now(KST)  # 한국 시간
     channel = bot.get_channel(channel_id)
 
     if channel:
