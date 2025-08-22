@@ -23,7 +23,8 @@
 <img width="1370" height="197" alt="image" src="https://github.com/user-attachments/assets/2f126faf-5177-4fba-b71a-d2dd5c874017" />
 
 * Copy한 URL 붙여넣어 서버에 봇 추가
-<img width="1916" height="910" alt="image" src="https://github.com/user-attachments/assets/b85bd7a0-53df-433a-b5c5-33170db4f309" />
+<img width="1916" height="908" alt="image" src="https://github.com/user-attachments/assets/834d452b-f9c4-4055-8e52-1670c61371a9" />
+
 
 * bot.py에서 channel_id 변경
 
